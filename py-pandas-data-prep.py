@@ -2,7 +2,7 @@ import numpy as np
 import pandas as pd
 import matplotlib.pyplot as plt
 
-# Pandas project 1: FLIGHTS
+# Pandas project 1: Flights, loading data
 
 
 df = pd.read_csv('flights.csv')
@@ -18,4 +18,4 @@ print(df['Origin'].value_counts())
 
 print(df['Origin'].unique())
 print(df['Origin'].nunique())
-# Now we have our data loaded
+
